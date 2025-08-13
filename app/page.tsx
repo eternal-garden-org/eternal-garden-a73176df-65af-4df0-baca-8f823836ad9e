@@ -20,7 +20,6 @@ export default function Home() {
         photoUrl="https://rfuuxxxcubnqezacyouv.supabase.co/storage/v1/object/public/memorial-media/memorials/a73176df-65af-4df0-baca-8f823836ad9e/photo/1755099139342_main_image_3.png"
         birthPlace="Солигорск, Беларусь"
         deathPlace="Брест, Беларусь"
-        backgroundImage="https://rfuuxxxcubnqezacyouv.supabase.co/storage/v1/object/public/memorial-media/memorials/a73176df-65af-4df0-baca-8f823836ad9e/photo/1755099128774_bg_image_3.png"
       />
       <Container>
         <MemorialInfo />
