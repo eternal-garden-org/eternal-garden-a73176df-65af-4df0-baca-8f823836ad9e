@@ -40,17 +40,18 @@ export function MemorialHero({
     <div className={cn("relative w-full bg-white", className)}>
       <Container>
         <div className="flex flex-col items-center py-12 lg:py-16">
-          {/* Photo Section - Centered */}
+          {/* Photo Section - Centered with frame */}
           <div className="flex-shrink-0 mb-8">
             <div 
-              className="relative overflow-hidden mx-auto"
+              className="relative overflow-hidden mx-auto shadow-lg"
               style={{
                 width: '500px',
                 height: '500px',
                 maxWidth: '90vw',
                 maxHeight: '90vw',
-                border: '4px solid #E5E5E5',
-                borderRadius: '8px'
+                border: '8px solid #E5E5E5',
+                borderRadius: '4px',
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
               }}
             >
               <Image
