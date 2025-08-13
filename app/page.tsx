@@ -36,6 +36,11 @@ export default function Home() {
       url: "https://rfuuxxxcubnqezacyouv.supabase.co/storage/v1/object/public/memorial-media/memorials/a73176df-65af-4df0-baca-8f823836ad9e/photo/1755099172363_photo_3_4.png",
       title: "photo_3_4",
       description: "ффффффф"
+    },
+    {
+      url: "https://rfuuxxxcubnqezacyouv.supabase.co/storage/v1/object/public/memorial-media/memorials/a73176df-65af-4df0-baca-8f823836ad9e/photo/1755107311490_bg_image-min.png",
+      title: "bg_image-min",
+      description: "фы"
     }
   ];
 
@@ -46,7 +51,6 @@ export default function Home() {
         birthDate="1976-02-11"
         deathDate="2025-08-05"
         photos={memorialPhotos}
-        backgroundImage="https://rfuuxxxcubnqezacyouv.supabase.co/storage/v1/object/public/memorial-media/memorials/a73176df-65af-4df0-baca-8f823836ad9e/photo/1755107311490_bg_image-min.png"
       />
       <Container>
         <MemorialInfo />
