@@ -11,7 +11,10 @@ export function PageLayout({
   className,
 }: PageLayoutProps) {
   return (
-    <div className={cn("relative flex min-h-screen flex-col", className)}>
+    <div 
+      className={cn("relative flex min-h-screen flex-col", className)}
+      style={{ backgroundColor: '#ffffff' }}
+    >
       <main className="relative flex min-h-[100vh] flex-1 flex-col" role="main">
         {children}
       </main>
